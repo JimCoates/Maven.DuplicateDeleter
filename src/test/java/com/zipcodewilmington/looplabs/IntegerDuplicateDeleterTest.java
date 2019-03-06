@@ -1,5 +1,6 @@
 package com.zipcodewilmington.looplabs;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -56,6 +57,7 @@ public class IntegerDuplicateDeleterTest {
         Integer[] actual = deleter.removeDuplicatesExactly(3);
         TestUtils.assertArrayEquality(expected, actual);
     }
+
 
 
 
